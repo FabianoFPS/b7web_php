@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+</head>
+<body>
+     <div class="container" >
+          <br>
+          <button class="btn btn-primary" type="" data-toggle="modal" data-target="#janela">
+               Clique aqui para abrir
+          </button>
+          <div id="janela" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+               <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                         <div class="modal-header">
+                              <p><h5 class="modal-title">Titulo do modal</h5></p>
+                              <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                         </div>
+                         <div class="modal-body">
+                              <p>Content ...</p>
+                         </div>
+                         <div class="modal-footer">
+                              <p>...</p>
+                              <button class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#my-modal">
+               Modal centralizado
+          </button>
+          <div id="my-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="my-modal-title" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                         <div class="modal-header">
+                              <h5 class="modal-title" id="my-modal-title">Title</h5>
+                              <button class="close" data-dismiss="modal" aria-label="Close">
+                                   <span aria-hidden="true">&times;</span>
+                              </button>
+                         </div>
+                         <div class="modal-body">
+                              <table class="table table-bordered table-striped table-dark table-hover">
+                                   <tbody>
+                                        <tr>
+                                             <th>#</th>  
+                                             <th>Nome</th>
+                                             <th>Sobrenome</th>
+                                             <th>idade</th>
+                                        </tr>
+                                        <tr>
+                                             <td>1</td>
+                                             <td>Fabiano</td>
+                                             <td>Stoffel</td>
+                                             <td>35</td>
+                                        </tr>
+                                        <tr>
+                                             <td>1</td>
+                                             <td>Fabiano</td>
+                                             <td>Stoffel</td>
+                                             <td>35</td>
+                                             </tr>
+                                        <tr>
+                                             <td>1</td>
+                                             <td>Fabiano</td>
+                                             <td>Stoffel</td>
+                                             <td>35</td>
+                                        </tr>
+                                   </tbody>
+                              </table>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+<script type="text/javascript" src="bootstrap-4.3.1-dist/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+     $('#my-modal').modal({backdrop: false});
+</script>
+</body>
+</html>

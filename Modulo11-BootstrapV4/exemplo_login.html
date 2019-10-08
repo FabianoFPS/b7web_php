@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Fabiano F. dos Passos Stoffel">
+    <link rel="icon" href="https://www.feevale.br/institucional/Comum/img/logo.ico">
+
+    <title>Login - Autoridade</title>
+
+    <!-- Principal CSS do Bootstrap -->
+    <link href="bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos customizados para esse template -->
+    <link href="bootstrap-4.3.1-dist/floating-labels.css" rel="stylesheet">
+  </head>
+
+<body>
+     <div class="container-fluid">
+          <div class="row">
+               <div class="col-md">
+                    <form class="form-signin">
+                         <div class="text-center mb-4">
+                              <img class="mb-4" src="img/logo_login.png" alt="" width="72" height="72">
+                              <h1 class="h3 mb-3 font-weight-normal">BIBLIOTECA <small class="text-muted">Autoridade</small></h1>
+                              <p></p>
+                         </div>
+                         <div class="form-label-group">
+                              <input type="text" id="codigo" class="form-control form-control-lg" placeholder="Código Usuário" required autofocus autocomplete="off" maxlength="7" onkeypress='return SomenteNumero(event)'>
+                              <label for="codigo">Código Usuário:</label>
+                         </div>
+                         <div class="form-label-group">
+                              <input type="password" id="senha" class="form-control form-control-lg is-invalid" placeholder="Senha" required>
+                              <!--acrescentar a classe is-invalid -->
+                              <label for="senha">Senha ADM:</label>
+                              <div class="invalid-feedback">Senha inválida!</div>
+                              <!-- <div class="invalid-tooltip">Senha inválida!</div> -->
+                         </div>
+                         <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+                         <p class="mt-5 mb-3 text-muted text-center">2019</p>
+                    </form>
+               </div>
+          </div>
+     </div>
+     <script type="text/javascript" src="bootstrap-4.3.1-dist/jquery-3.4.1.min.js"></script>
+     <script type="text/javascript" src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+     <script type="text/javascript" src="js/campo_login.js"></script>
+</body>
+</html>
