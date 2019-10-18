@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /git/b7web_php/Modulo12-PHP_avancado/mod_rewrite.php?q=$1 [L]
