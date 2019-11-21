@@ -44,6 +44,24 @@ class BD{
           return $resultado;
      }
 
+     public function execBDv2(string $sql, array $parametros){
+          
+          $resultado = array();
+
+          $statement = $this->pdo->prepare($sql, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+          $resultado['retorno'] = $statement->execute( $parametros );
+
+          while ($statement->rowCount() == 0 &&  $statement->nextRowset()){}
+          
+          if ($statement->rowCount() and $statement->columnCount() ) {
+     
+               $resultado['info'] = $statement->fetchAll();
+          }
+            
+          $statement->closeCursor();
+          return $resultado;
+     }
+
      public function exec(string $sql){
           
           $resultado = array();
