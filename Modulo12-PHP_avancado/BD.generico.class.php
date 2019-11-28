@@ -79,6 +79,27 @@ class BD{
           $statement->closeCursor();
           return $resultado;
      }
+     /**
+      * @param String $sql
+      * @return Array
+      */
+     public function exec2(string $sql){
+          
+          $resultado = array();
+
+          $statement = $this->pdo->prepare($sql);
+          $resultado['retorno'] = $statement->execute();
+
+          while ($statement->rowCount() == 0 &&  $statement->nextRowset()){}
+          
+          if ($statement->rowCount() and $statement->columnCount() ) {
+     
+              $resultado['dados'] = $statement->fetchAll();
+          }
+            
+          $statement->closeCursor();
+          return $resultado;
+     }
 
      /**
      * @param
