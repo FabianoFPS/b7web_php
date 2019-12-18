@@ -23,4 +23,18 @@ function selecionaPorTagEClasse(){
      $('li.class_li');
 }
 
-//08:25
+function selecionaClassClass() {
+     
+     $('.lista2 li.class_li');
+}
+
+function existeElemento( elemento ) {
+     
+     if ( $(elemento).length > 0 ) {
+
+          return true;
+     }
+
+     return false;
+}
+
