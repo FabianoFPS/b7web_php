@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+</head>
+<body>
+     <div>
+          Código emmet:
+          <br>
+          <code><b>select#idade[name=idade]>option[value=$0]{$0 anos}*4</b></code>
+     </div>
+     <br>
+     <select name="idade" id="idade" onchange="monstraValor()">
+          <option value="10">10 anos</option>
+          <option value="20">20 anos</option>
+          <option value="30">30 anos</option>
+          <option value="40">40 anos</option>
+     </select>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="script.js"></script>     
+</body>
+</html>
