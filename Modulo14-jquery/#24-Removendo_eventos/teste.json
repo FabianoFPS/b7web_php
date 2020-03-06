@@ -1,0 +1,75 @@
+
+{
+     "MinhaBiblioteca": {
+          "id": "#MinhaBiblioteca",
+          "url": "https://biblioteca.feevale.br/pergamum/biblioteca_s/php/login_usu.php?flag=minhabiblioteca_redirect.php"
+     },
+     "Unique": {
+          "id": "#unique",
+          "url": "https://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&profile=eds&groupid=main"
+     },
+     "BibliotecaVirtual": {
+          "id": "#bvu",
+          "url": "https://biblioteca.feevale.br/pergamum/biblioteca_s/php/login_usu.php?flag=pearson_redirect.php"
+     },
+     "EBSCOHost": {
+          "id": "#ebsco",
+          "url": "http://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&profile=ehost&groupid=main"
+     },
+     "SaudeEmPortugues": {
+          "id": "#sep",
+          "url": "http://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&profile=chipor&groupid=main"
+     },
+     "SMARTimagebase": {
+          "id": "#simg",
+          "url": "http://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&profile=scimed&groupid=main"
+     },
+     "DynaMedPlus": {
+          "id": "#dplus",
+          "url": "https://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&groupid=main&profile=dmp"
+     },
+     "RevistadosTribunaisOnline": {
+          "id": "#rtonline",
+          "url": "https://biblioteca.feevale.br/pergamum/biblioteca_s/php/login_usu.php?flag=rtonline_redirect.php",
+     },
+     "ANPAD": {
+          "id": "#anpad",
+          "url": "urlTutorial"
+     },
+     "abraman": {
+          "id": "#abraman",
+          "url": "urlTutorial"
+     },
+     "Journalofenvironmentalquality": {
+          "id": "#jeq",
+          "url": "urlTutorial"
+     },
+     "TargetGedweb":{
+          "id": "#gedweb",
+          "url": "urlTutorial"
+     },
+     "CAPES": {
+          "id": "#capes",
+          "url": "http://www-periodicos-capes-gov-br.ez310.periodicos.capes.gov.br/index.php?option=com_phome"
+     },
+     "MEDLINEComplete": {
+          "id": "#med",
+          "url": "http://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&profile=ehost&defaultdb=mdc&groupid=main"
+     },
+     "ENVIRONMENTCOMPLETE": {
+          "id": "#ecomplete",
+          "url": "http://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&profile=ehost&defaultdb=eih&groupid=main"
+     },
+     "AcademicSearchElite": {
+          "id": "#ase",
+          "url": "http://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&profile=ehost&defaultdb=aph&groupid=main "
+     },
+     "eBookClinicalCollection" :{
+          "id": "#ecc",
+          "url": "http://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&profile=ehost&defaultdb=e600xww&groupid=main"
+     },
+     "Ebookacademiccollection": {
+          "id": "#eac",
+          "url": "https://search.ebscohost.com/login.aspx?authtype=ip,shib&custid=s3621250&groupid=main&profile=ehost&defaultdb=e000xww"
+     }
+}
