@@ -7,9 +7,9 @@ function inicializacao(){
           console.log('Scrollou');
           $(this).css('background-color', 'green');
      });
-}
 
-function scroll(){
+     $(window).bind('resize', function(){
 
-     
+          console.log('Mudou om tamanho da tela');
+     });
 }
