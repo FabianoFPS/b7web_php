@@ -1,4 +1,9 @@
 <?php
+
+echo '<a href="https://pensandonaweb.com.br/o-que-ha-de-novo-no-php-7-4/" target="_blank" rel="noopener noreferrer">
+     https://pensandonaweb.com.br/o-que-ha-de-novo-no-php-7-4/     
+     </a><br><br>';
+
 /******************************
 * propriedades tipadas
 *******************************/

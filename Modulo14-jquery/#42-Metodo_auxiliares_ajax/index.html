@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>AJAX</title>
+     <style type="text/css">
+          .div{
+               width: 200px;
+               height: 170px;
+               background-color: #EEE;
+          }
+     </style>
+</head>
+<body>
+     <div class="div">
+
+     </div>
+     <button id="btn1">
+          Ajax JQuery: <code>$('.div').load("teste.html");</code>
+     </button>
+     <br>
+     <button id="btn2">
+          Ajax JQuery:
+          <code>
+               $.get('teste.html', (data)=>{
+
+                    $('.div').html(data);
+               });
+          </code>
+     </button>
+     <br>
+     <button id="btn3">
+          Ajax JQuery:
+          <code>
+               $.post('teste.html', (data)=>{
+
+                    $('.div').html(data);
+               });
+          </code>
+     </button>
+<script src="../js/jquery-3.4.1.min.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>
