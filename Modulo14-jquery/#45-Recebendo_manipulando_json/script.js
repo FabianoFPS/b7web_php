@@ -16,7 +16,11 @@ $( () => {
                     success:  (respostaJson) => {
 
                          console.log(respostaJson);
-                         $('.div').html("Nome: "+respostaJson.nome);
+                         $('.div').html(`Nome: ${respostaJson.nome}
+                                        <br>
+                                        Senha: ${respostaJson.senha}
+                                        <br>
+                                        Idade: ${respostaJson.idade}`);
                     }
                }
           );
